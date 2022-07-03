@@ -5,9 +5,9 @@ import  {CgGym} from 'react-icons/cg'
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
-    <nav className=" flex  justify-between items-center p-4 background primary-color font">
+    <nav className=" flex   justify-between items-center p-4 background primary-color font">
       <div className="flex justify-start items-center">
-        <h2 className="text-xl sm:2xl   text-white">Fitnetic</h2>
+        <h2 className="text-xl sm:6xl   text-white">Fitnetic</h2>
       </div>
       <GiHamburgerMenu
           className="text-white sm:hidden absolute top-6 right-10"

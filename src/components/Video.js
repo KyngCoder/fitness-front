@@ -7,9 +7,9 @@ const Video = () => {
     const vidRef = React.useRef();
   
     return (
-      <div className="relative h-screen bg-green-500">
+      <div className="relative h-full ">
         <video
-        className="h-screen w-screen  bg-cover"
+        className="h-full w-screen  bg-cover"
           ref={vidRef}
           src={intro}
           type="video/mp4"
