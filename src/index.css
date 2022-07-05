@@ -42,3 +42,14 @@
 .heading{
   font-family:Playfair ;
 }
+
+.hover:hover{
+  transform:scale(0.95);
+  transition:0.5s ;
+}
+
+.activate:active{
+  transform:scale(0.95);
+  transition:0.2s 
+}
+
