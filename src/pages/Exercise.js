@@ -5,7 +5,7 @@ const Exercise = () => {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "ca155b3d44msh6a1ab81bba2db1cp19c0edjsnfada7497ce5f",
+      "X-RapidAPI-Key": REACT_APP_URL,
       "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
     },
   };
